@@ -1,0 +1,11 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "Whether one year is enough is the part to watch."
+  vertices:
+    - {id: A, label: "CATALCHEM-E", source: "ARPA-E, April 2026", ref: "https://arpa-e.energy.gov", role: "$34M, 12 projects, a one-year clock", layer: engineering}
+    - {id: B, label: "4H-phase HEA", source: "Li et al., Nat. Mater. 2026", ref: "doi:10.1038/s41563-026-02562-1", role: "Structurally novel host outside MLIP training", layer: science}
+    - {id: C, label: "Transferability gap", source: "Loveday et al., ACS Catal. 2026", ref: "doi:10.1021/acscatal.5c08945", role: "No standardized benchmarks for diverse surfaces", layer: limitations}
+  edges:
+    - {between: [A, C], type: Missing Piece}
+    - {between: [B, C], type: Out-of-distribution test}
+    - {between: [A, B], type: Cadence pressure}

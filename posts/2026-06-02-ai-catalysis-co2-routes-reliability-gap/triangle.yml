@@ -1,0 +1,11 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "Two CO₂ routes, one reliability gap — and a tool built outside catalysis to close it."
+  vertices:
+    - {id: A, label: "HE-MBene screening", source: "Bharadwaj et al., arXiv:2605.08728", ref: "arXiv:2605.08728", role: "Fine-tuned MACE screens CO₂-to-CO candidates", layer: science}
+    - {id: B, label: "Facet-resolved adsorption", source: "Pisal et al., arXiv:2605.07714", ref: "arXiv:2605.07714", role: "1.4 million adsorption energies on 2,626 surfaces", layer: science}
+    - {id: C, label: "PROBE reliability", source: "Mehdi et al., arXiv:2605.00640", ref: "arXiv:2605.00640", role: "A reliability probability for each prediction", layer: engineering}
+  edges:
+    - {between: [A, B], type: Analogy Transfer}
+    - {between: [B, C], type: Missing Piece}
+    - {between: [A, C], type: Enabler}

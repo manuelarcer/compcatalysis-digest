@@ -1,0 +1,11 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "We don't have a speed problem anymore. We have a trust problem."
+  vertices:
+    - {id: A, label: "CARE stress test", source: "López et al., Nat. Chem. Eng. 2026", ref: "doi:10.1038/s44286-026-00361-8", role: "Universal MLIPs: >2 eV MAE on activation barriers", layer: limitations}
+    - {id: B, label: "Matlantis PFP v8", source: "Matlantis, arXiv:2603.11063", ref: "arXiv:2603.11063", role: "SaaS universal MLIP, 96 elements, no fine-tuning", layer: engineering}
+    - {id: C, label: "Proof-carrying materials", source: "Basu et al., arXiv:2603.12183", ref: "arXiv:2603.12183", role: "Multi-model consensus with formal certificates", layer: science}
+  edges:
+    - {between: [A, B], type: Scale Jump}
+    - {between: [B, C], type: Missing Piece}
+    - {between: [A, C], type: Enabler}

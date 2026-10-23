@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1200" height="1000" fill="#FBFBFC"/>
+<line x1="600" y1="200" x2="950" y2="775" stroke="#B9C1CF" stroke-width="3" stroke-dasharray="1 0"/>
+<line x1="600" y1="200" x2="250" y2="775" stroke="#B9C1CF" stroke-width="3" stroke-dasharray="1 0"/>
+<line x1="250" y1="775" x2="950" y2="775" stroke="#B9C1CF" stroke-width="3" stroke-dasharray="1 0"/>
+<text x="600" y="564.7" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">Foundation models for screening,</text>
+<text x="600" y="592.0" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">active learning for production</text>
+<text x="600" y="619.3" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">accuracy.</text>
+<rect x="696.7" y="465.5" width="156.6" height="44" rx="22" fill="#FFFFFF" stroke="#1B2230" stroke-width="1.5"/><circle cx="718.7" cy="487.5" r="13" fill="#1B2230"/><text x="718.7" y="493.5" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">↗</text><text x="740.7" y="493.5" font-size="17" font-weight="600" fill="#1B2230">Scale Jump</text>
+<rect x="287.54" y="465.5" width="274.91999999999996" height="44" rx="22" fill="#FFFFFF" stroke="#1B2230" stroke-width="1.5"/><circle cx="309.54" cy="487.5" r="13" fill="#1B2230"/><text x="309.54" y="493.5" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">·</text><text x="331.54" y="493.5" font-size="17" font-weight="600" fill="#1B2230">Empirical confirmation</text>
+<rect x="521.7" y="753.0" width="156.6" height="44" rx="22" fill="#FFFFFF" stroke="#1B2230" stroke-width="1.5"/><circle cx="543.7" cy="775.0" r="13" fill="#1B2230"/><text x="543.7" y="781.0" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">↗</text><text x="565.7" y="781.0" font-size="17" font-weight="600" fill="#1B2230">Scale Jump</text>
+<rect x="423.0" y="89.0" width="360" height="232" rx="18" fill="#1B2230" opacity="0.07"/>
+<rect x="420.0" y="84.0" width="360" height="232" rx="18" fill="#FFFFFF" stroke="#2F64D6" stroke-width="2"/>
+<path d="M420.0,102.0 a18,18 0 0 1 18,-18 h324 a18,18 0 0 1 18,18 v18 h-360 z" fill="#EAF0FD"/>
+<circle cx="450.0" cy="103.0" r="12" fill="#2F64D6"/>
+<text x="450.0" y="108.0" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="472.0" y="108.5" font-size="13" font-weight="700" fill="#2F64D6" letter-spacing="1.6">SCIENCE</text>
+<text x="442.0" y="154.0" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">AI-in-catalysis</text>
+<text x="442.0" y="183.9" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">roadmap</text>
+<text x="442.0" y="219.8" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">Data ecosystem, foundation models,</text>
+<text x="442.0" y="241.9" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">autonomous labs</text>
+<text x="442.0" y="300.0" font-size="15" font-weight="400" fill="#5B6578" text-anchor="start">Xin et al., Nat. Catal. 2026</text>
+<rect x="73.0" y="664.0" width="360" height="232" rx="18" fill="#1B2230" opacity="0.07"/>
+<rect x="70.0" y="659.0" width="360" height="232" rx="18" fill="#FFFFFF" stroke="#C8551F" stroke-width="2"/>
+<path d="M70.0,677.0 a18,18 0 0 1 18,-18 h324 a18,18 0 0 1 18,18 v18 h-360 z" fill="#FCEEE6"/>
+<circle cx="100.0" cy="678.0" r="12" fill="#C8551F"/>
+<text x="100.0" y="683.0" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="122.0" y="683.5" font-size="13" font-weight="700" fill="#C8551F" letter-spacing="1.6">LIMITATIONS</text>
+<text x="92.0" y="729.0" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">80-MLIP benchmark</text>
+<text x="92.0" y="764.9" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">Accurate enough for initial</text>
+<text x="92.0" y="787.0" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">screening, with caveats</text>
+<text x="92.0" y="875.0" font-size="15" font-weight="400" fill="#5B6578" text-anchor="start">Kempen et al., arXiv:2512.16702</text>
+<rect x="773.0" y="664.0" width="360" height="232" rx="18" fill="#1B2230" opacity="0.07"/>
+<rect x="770.0" y="659.0" width="360" height="232" rx="18" fill="#FFFFFF" stroke="#0E8F7E" stroke-width="2"/>
+<path d="M770.0,677.0 a18,18 0 0 1 18,-18 h324 a18,18 0 0 1 18,18 v18 h-360 z" fill="#E6F5F2"/>
+<circle cx="800.0" cy="678.0" r="12" fill="#0E8F7E"/>
+<text x="800.0" y="683.0" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
+<text x="822.0" y="683.5" font-size="13" font-weight="700" fill="#0E8F7E" letter-spacing="1.6">ENGINEERING</text>
+<text x="792.0" y="729.0" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">MACE committee</text>
+<text x="792.0" y="764.9" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">DFT-level accuracy on 21</text>
+<text x="792.0" y="787.0" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">metal-electrolyte systems</text>
+<text x="792.0" y="875.0" font-size="15" font-weight="400" fill="#5B6578" text-anchor="start">Mathanker et al., ACS Electrochem. 2026</text>
+<text x="40" y="970" font-size="15" fill="#5B6578">Computational (het) Catalysis Digest · AI &amp; ML in Catalysis · 2026-05-04</text>
+<text x="1160" y="970" font-size="15" fill="#5B6578" text-anchor="end">CC BY 4.0</text>
+</svg>

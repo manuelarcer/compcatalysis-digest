@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="1200" height="1000" fill="#FBFBFC"/>
+<line x1="600" y1="200" x2="950" y2="775" stroke="#B9C1CF" stroke-width="3" stroke-dasharray="1 0"/>
+<line x1="250" y1="775" x2="950" y2="775" stroke="#B9C1CF" stroke-width="3" stroke-dasharray="1 0"/>
+<line x1="600" y1="200" x2="250" y2="775" stroke="#B9C1CF" stroke-width="3" stroke-dasharray="1 0"/>
+<text x="600" y="551.0" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">Self-correction and fine-tuning</text>
+<text x="600" y="578.3" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">tighten agreement with the</text>
+<text x="600" y="605.6" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">reference. Some errors sit</text>
+<text x="600" y="632.9" font-size="21" font-weight="600" fill="#1B2230" text-anchor="middle">underneath it.</text>
+<rect x="681.91" y="465.5" width="186.18" height="44" rx="22" fill="#FFFFFF" stroke="#1B2230" stroke-width="1.5"/><circle cx="703.91" cy="487.5" r="13" fill="#1B2230"/><text x="703.91" y="493.5" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">≠</text><text x="725.91" y="493.5" font-size="17" font-weight="600" fill="#1B2230">Contradiction</text>
+<rect x="506.90999999999997" y="753.0" width="186.18" height="44" rx="22" fill="#FFFFFF" stroke="#1B2230" stroke-width="1.5"/><circle cx="528.91" cy="775.0" r="13" fill="#1B2230"/><text x="528.91" y="781.0" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">+</text><text x="550.91" y="781.0" font-size="17" font-weight="600" fill="#1B2230">Missing Piece</text>
+<rect x="361.49" y="465.5" width="127.02" height="44" rx="22" fill="#FFFFFF" stroke="#1B2230" stroke-width="1.5"/><circle cx="383.49" cy="487.5" r="13" fill="#1B2230"/><text x="383.49" y="493.5" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">→</text><text x="405.49" y="493.5" font-size="17" font-weight="600" fill="#1B2230">Enabler</text>
+<rect x="423.0" y="89.0" width="360" height="232" rx="18" fill="#1B2230" opacity="0.07"/>
+<rect x="420.0" y="84.0" width="360" height="232" rx="18" fill="#FFFFFF" stroke="#0E8F7E" stroke-width="2"/>
+<path d="M420.0,102.0 a18,18 0 0 1 18,-18 h324 a18,18 0 0 1 18,18 v18 h-360 z" fill="#E6F5F2"/>
+<circle cx="450.0" cy="103.0" r="12" fill="#0E8F7E"/>
+<text x="450.0" y="108.0" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<text x="472.0" y="108.5" font-size="13" font-weight="700" fill="#0E8F7E" letter-spacing="1.6">ENGINEERING</text>
+<text x="442.0" y="154.0" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">AdsMind</text>
+<text x="442.0" y="189.9" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">Closed-loop agent search that</text>
+<text x="442.0" y="212.0" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">corrects itself by MLFF relaxation</text>
+<text x="442.0" y="300.0" font-size="15" font-weight="400" fill="#5B6578" text-anchor="start">Zhang et al., arXiv:2606.19152</text>
+<rect x="73.0" y="664.0" width="360" height="232" rx="18" fill="#1B2230" opacity="0.07"/>
+<rect x="70.0" y="659.0" width="360" height="232" rx="18" fill="#FFFFFF" stroke="#2F64D6" stroke-width="2"/>
+<path d="M70.0,677.0 a18,18 0 0 1 18,-18 h324 a18,18 0 0 1 18,18 v18 h-360 z" fill="#EAF0FD"/>
+<circle cx="100.0" cy="678.0" r="12" fill="#2F64D6"/>
+<text x="100.0" y="683.0" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+<text x="122.0" y="683.5" font-size="13" font-weight="700" fill="#2F64D6" letter-spacing="1.6">SCIENCE</text>
+<text x="92.0" y="729.0" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">Sparse fine-tuning</text>
+<text x="92.0" y="764.9" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">Updates 0.5–3% of parameters,</text>
+<text x="92.0" y="787.0" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">matching full fine-tuning</text>
+<text x="92.0" y="875.0" font-size="15" font-weight="400" fill="#5B6578" text-anchor="start">Cho et al., arXiv:2606.18691</text>
+<rect x="773.0" y="664.0" width="360" height="232" rx="18" fill="#1B2230" opacity="0.07"/>
+<rect x="770.0" y="659.0" width="360" height="232" rx="18" fill="#FFFFFF" stroke="#C8551F" stroke-width="2"/>
+<path d="M770.0,677.0 a18,18 0 0 1 18,-18 h324 a18,18 0 0 1 18,18 v18 h-360 z" fill="#FCEEE6"/>
+<circle cx="800.0" cy="678.0" r="12" fill="#C8551F"/>
+<text x="800.0" y="683.0" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
+<text x="822.0" y="683.5" font-size="13" font-weight="700" fill="#C8551F" letter-spacing="1.6">LIMITATIONS</text>
+<text x="792.0" y="729.0" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">HfO₂ wrong ground</text>
+<text x="792.0" y="758.9" font-size="26" font-weight="700" fill="#1B2230" text-anchor="start">state</text>
+<text x="792.0" y="794.8" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">PBE error reproduced by foundation</text>
+<text x="792.0" y="816.9" font-size="17" font-weight="400" fill="#1B2230" text-anchor="start">models</text>
+<text x="792.0" y="875.0" font-size="15" font-weight="400" fill="#5B6578" text-anchor="start">Tang et al., arXiv:2606.12811</text>
+<text x="40" y="970" font-size="15" fill="#5B6578">Computational (het) Catalysis Digest · AI &amp; ML in Catalysis · 2026-07-09</text>
+<text x="1160" y="970" font-size="15" fill="#5B6578" text-anchor="end">CC BY 4.0</text>
+</svg>
