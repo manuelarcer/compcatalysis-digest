@@ -1,0 +1,25 @@
+---
+title: "About"
+---
+
+Two weekly series on computational heterogeneous catalysis:
+
+- **AI & ML in Catalysis** — autonomous catalysis: orchestration agents, foundation-model
+  machine-learning interatomic potentials, self-driving labs, and the reliability of all three.
+- **ML for Chemical Kinetics** — machine learning for reaction-network discovery, microkinetic
+  modelling, kinetic Monte Carlo, rate-constant prediction, and reactor-scale coupling.
+
+Each post connects three recent papers — a "triangle" — and states what becomes visible only when
+the three are read together.
+
+Curated by Juan Manuel Arce-Ramos
+([ORCID 0000-0002-6561-544X](https://orcid.org/0000-0002-6561-544X)),
+Agency for Science, Technology and Research (A*STAR), Singapore.
+
+**How the posts are made.** An AI assistant does the weekly literature scan, builds the triangle,
+drafts the post, and runs an independent fact-check of every claim against the full text of the
+cited papers. Juan directs the topics, edits the framing, and approves every post before it is
+published. Each post states this at the end. Corrections are welcome.
+
+Content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Figures
+reproduced from papers keep their own licenses, stated in each caption.

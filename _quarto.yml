@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Computational (het) Catalysis Digest"
+  description: "Two weekly series on computational heterogeneous catalysis: AI and machine learning for catalysis, and machine learning for chemical kinetics. Each post connects three recent papers."
+  site-url: "https://manuelarcer.github.io/compcatalysis-digest/"
+  navbar:
+    left:
+      - text: "AI & ML in Catalysis"
+        href: "index.html#category=ai-catalysis"
+      - text: "ML for Chemical Kinetics"
+        href: "index.html#category=ml-kinetics"
+    right:
+      - about.qmd
+      - icon: rss
+        href: index.xml
+  page-footer:
+    center: "Content licensed under CC BY 4.0. Figures reproduced from papers keep their own licenses."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

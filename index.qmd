@@ -1,0 +1,12 @@
+---
+title: "Computational (het) Catalysis Digest"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  image-placeholder: ""
+  feed:
+    type: full
+    items: 500
+---
