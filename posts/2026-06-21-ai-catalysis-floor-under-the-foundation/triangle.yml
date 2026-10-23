@@ -1,0 +1,23 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "Self-correction and fine-tuning tighten agreement with the reference. Some errors sit underneath it."
+  vertices:
+    - id: A
+      label: "AdsMind"
+      source: "Zhang et al., arXiv:2606.19152"
+      role: "Closed-loop agent search that corrects itself by MLFF relaxation"
+      layer: engineering
+    - id: B
+      label: "Sparse fine-tuning"
+      source: "Cho et al., arXiv:2606.18691"
+      role: "Updates 0.5–3% of parameters, matching full fine-tuning"
+      layer: science
+    - id: C
+      label: "HfO₂ wrong ground state"
+      source: "Tang et al., arXiv:2606.12811"
+      role: "PBE error reproduced by foundation models"
+      layer: limitations
+  edges:
+    - {between: [A, C], type: Contradiction}
+    - {between: [B, C], type: Missing Piece}
+    - {between: [A, B], type: Enabler}

@@ -1,0 +1,11 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "The assembly manual now exists in the literature."
+  vertices:
+    - {id: A, label: "CatMaster", source: "Chen et al., arXiv:2601.13508", ref: "arXiv:2601.13508", role: "Autonomous multi-agent framework for catalysis", layer: engineering}
+    - {id: B, label: "TS-search benchmark", source: "Marks et al., arXiv:2604.00405", ref: "arXiv:2604.00405", role: "MACE-OMol25: 96.6% success on 58 reactions", layer: science}
+    - {id: C, label: "Active-learning fine-tuning", source: "Cheula et al., arXiv:2603.24482", ref: "arXiv:2603.24482", role: "DFT-quality TSs from ~8 single points per structure", layer: science}
+  edges:
+    - {between: [B, C], type: Missing Piece}
+    - {between: [A, B], type: Enabler}
+    - {between: [A, C], type: Enabler}

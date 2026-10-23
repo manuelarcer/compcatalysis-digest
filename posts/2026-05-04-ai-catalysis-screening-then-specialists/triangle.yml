@@ -1,0 +1,11 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "Foundation models for screening, active learning for production accuracy."
+  vertices:
+    - {id: A, label: "AI-in-catalysis roadmap", source: "Xin et al., Nat. Catal. 2026", ref: "doi:10.1038/s41929-026-01479-x", role: "Data ecosystem, foundation models, autonomous labs", layer: science}
+    - {id: B, label: "80-MLIP benchmark", source: "Kempen et al., arXiv:2512.16702", ref: "arXiv:2512.16702", role: "Accurate enough for initial screening, with caveats", layer: limitations}
+    - {id: C, label: "MACE committee", source: "Mathanker et al., ACS Electrochem. 2026", ref: "doi:10.1021/acselectrochem.5c00540", role: "DFT-level accuracy on 21 metal-electrolyte systems", layer: engineering}
+  edges:
+    - {between: [A, C], type: Scale Jump}
+    - {between: [A, B], type: Empirical confirmation}
+    - {between: [B, C], type: Scale Jump}

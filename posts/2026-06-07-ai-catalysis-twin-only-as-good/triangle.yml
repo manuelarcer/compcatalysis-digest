@@ -1,0 +1,11 @@
+# Written by blog-publish (backfill); not covered by a fact-check. Labels restate the published post.
+triangle:
+  thesis: "The twin is only as faithful as its potential."
+  vertices:
+    - {id: A, label: "CatDT digital twin", source: "Song et al., arXiv:2606.05050", ref: "arXiv:2606.05050", role: "Eight agents, 27 tools: bulk crystal to kinetics", layer: engineering}
+    - {id: B, label: "mlip v2", source: "Brunken et al., arXiv:2605.22698", ref: "arXiv:2605.22698", role: "Open-source JAX software for potentials", layer: engineering}
+    - {id: C, label: "MXene benchmark", source: "Melnyk et al., arXiv:2606.00794", ref: "arXiv:2606.00794", role: "Foundation potentials transfer poorly to MXenes", layer: limitations}
+  edges:
+    - {between: [A, C], type: Contradiction}
+    - {between: [A, B], type: Enabler}
+    - {between: [B, C], type: Enabler}

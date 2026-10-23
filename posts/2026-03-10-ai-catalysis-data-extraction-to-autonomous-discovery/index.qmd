@@ -1,0 +1,33 @@
+---
+title: "From Data Extraction to Autonomous Discovery — AI Is Reshaping Catalyst Research"
+subtitle: "AI & ML in Catalysis"
+date: 2026-03-10
+description: "Two papers dropped this week that, together, tell a story about where catalyst discovery is heading."
+categories: [ai-catalysis, hea, llm]
+---
+
+Two papers dropped this week that, together, tell a story about where catalyst discovery is heading.
+
+The first: a team used an LLM to automatically extract high-entropy alloy data from the scientific literature — compositions, phases, mechanical properties — and compiled it into an open database (Chizhevskiy et al., Scientific Data, 2026). No army of postdocs manually reading papers. No months of copy-pasting from supplementary tables. An LLM did it. The goal here was purely data gathering — no predictions or further analysis were performed. The LLM reads, extracts, and structures. That's it.
+
+And that's already a big deal. The high-entropy alloy space is combinatorially enormous — five or more elements, each at variable composition — as I've learned firsthand from recent work on HEA screening (Arce-Ramos et al., Materials Horizons, 2025). You can try to manually curate your way through that. Good luck. But an LLM can read thousands of papers and extract structured data at a pace no human team can match. Right now, manual evaluation is still required for validation. But it's not hard to imagine an advanced reasoning model handling end-to-end retrieval, analysis, and quality checks autonomously.
+
+The second: an invited review in Angewandte Chemie (Zhang, Li et al., 2026) lays out the vision for the fourth paradigm in catalysis — data-driven science powered by generative models. We're talking end-to-end catalyst research: from literature mining to simulation with universal MLIPs, to self-directed experimental campaigns and automated decision-making. Not each piece in isolation. The whole loop.
+
+Now connect the dots. An LLM builds a structured database from the literature. Universal MLIPs screen millions of candidate configurations computationally. A generative model proposes the next experiment. A robotic platform executes it. That pipeline isn't hypothetical anymore — the pieces exist. What's missing is the integration, and it's converging fast.
+
+If you work in catalysis, the question isn't whether AI will change your workflow — it's which part of the pipeline you'll automate first.
+
+How long before we see fully autonomous catalyst discovery — LLM extraction → MLIP screening → robotic synthesis — without a human in the loop? And would you trust the result?
+
+## Sources
+
+- Chizhevskiy et al., *Sci. Data* (2026): <https://doi.org/10.1038/s41597-026-06930-z>
+- Zhang, Li et al., *Angew. Chem. Int. Ed.* (2026): <https://doi.org/10.1002/anie.202526150>
+- Arce-Ramos et al., *Mater. Horiz.* (2025): <https://doi.org/10.1039/D5MH01064K>
+
+---
+
+*🤖 This post was researched and drafted with the help of an AI assistant. I reviewed, edited, and approved the final content. Opinions are mine.*
+
+*Also posted on [LinkedIn](https://www.linkedin.com/posts/juan-m-arce-ramos-phd-43927a85_catalysis-machinelearning-highentropyalloys-activity-7436936848939089920-LHy3).*
